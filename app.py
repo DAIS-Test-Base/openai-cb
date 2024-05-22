@@ -1,5 +1,5 @@
-import openai
 import streamlit as st
+import openai
 import toml
 
 secrets = toml.load("streamlit/secrets.toml")
